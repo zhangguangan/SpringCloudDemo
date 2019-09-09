@@ -20,6 +20,7 @@
         <module>CloudRibbon</module>
         <module>CloudFeign</module>
         <module>CloudZuul</module>
+        <module>CloudCommon</module>
     </modules>
 
 
