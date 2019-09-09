@@ -1,0 +1,11 @@
+*.class
+*.iml
+*/target/
+*.log
+*.ctxt
+.mtj.tmp/
+.idea/
+.metadata/
+.settings/
+.project
+.classpath
