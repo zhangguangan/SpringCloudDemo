@@ -42,13 +42,13 @@ public class AccessFilter extends ZuulFilter {
         logger.info(String.format("%s request to %s", request.getMethod(), request.getRequestURL().toString()));
 
         Object accessToken = request.getParameter("accessToken");
-        if(accessToken == null) {
+        /*if(accessToken == null) {
             logger.warn("access token is empty");
             ctx.setSendZuulResponse(false);
             ctx.setResponseStatusCode(401);
             return null;
-        }
-        logger.info("access token ok");
+        }*/
+        logger.info("access token ok, accesstoken:" + accessToken);
         return null;
     }
 }
